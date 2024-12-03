@@ -283,8 +283,8 @@ Display the Seattle weather dataset :
 </div>
 
 
-    ------------------------------------------------------------
-    Non-null count and dtype of each columns :
+  ------------------------------------------------------------
+  Non-null count and dtype of each columns :
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 1461 entries, 0 to 1460
     Data columns (total 6 columns):
@@ -298,16 +298,9 @@ Display the Seattle weather dataset :
      5   weather        1461 non-null   object 
     dtypes: float64(4), object(2)
     memory usage: 68.6+ KB
-    
-
-
     None
-
-
-    ------------------------------------------------------------
-    Describe some statictics information of dataset :
-    
-
+------------------------------------------------------------
+Describe some statictics information of dataset :
 
 <div>
 <style scoped>
@@ -395,11 +388,8 @@ Display the Seattle weather dataset :
 </div>
 
 
-    ------------------------------------------------------------
-    Data type of each column :
-    
-
-
+------------------------------------------------------------
+  Data type of each column :
     date              object
     precipitation    float64
     temp_max         float64
