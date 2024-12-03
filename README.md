@@ -577,19 +577,6 @@ dataset.visualize_precipitation_temp(df)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -781,7 +768,7 @@ dataset.visualize_dataset_weather(weather_count)
     rain     7.588768  13.454602  10.521685       6.557878
     snow     0.146154   5.573077   2.859615       8.553846
     sun      9.343750  19.861875  14.602812       0.000000
-    ------------------------------------------------------------
+  ------------------------------------------------------------
     Weather Days Count:
      weather
     drizzle     53
@@ -790,7 +777,7 @@ dataset.visualize_dataset_weather(weather_count)
     snow        26
     sun        640
     Name: date, dtype: int64
-    ------------------------------------------------------------
+  ------------------------------------------------------------
     
 
 
@@ -832,19 +819,6 @@ plt.show()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
