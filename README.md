@@ -91,8 +91,6 @@ import kagglehub
 path = kagglehub.dataset_download("ananthr1/weather-prediction")
 print("Path to dataset files:", path)
 ```
-
-    Path to dataset files: C:\Users\SarayeTell\.cache\kagglehub\datasets\ananthr1\weather-prediction\versions\1
     
 
 ## **Reading Dataset**
@@ -154,7 +152,7 @@ class reading_dataset:
         
 
 # path to seattle weather dataset
-dataset = reading_dataset(r"C:\Users\SarayeTell\Desktop\Weather Prediction\seattle-weather.csv")
+dataset = reading_dataset(r"path to seattle-weather.csv")
 
 # Read the dataset
 df = dataset.read()
@@ -428,7 +426,7 @@ class reading_dataset:
         display(df.dtypes)
 
 
-dataset = reading_dataset(r"C:\Users\SarayeTell\Desktop\Weather Prediction\seattle-weather.csv")
+dataset = reading_dataset(r"path to seattle-weather.csv")
 
 # Read the dataset
 df = dataset.read()
@@ -748,7 +746,7 @@ class reading_dataset:
 
 
 # Instantiate the class and process the data
-dataset = reading_dataset(r"C:\Users\SarayeTell\Desktop\Weather Prediction\seattle-weather.csv")
+dataset = reading_dataset(r"path to seattle-weather.csv")
 
 df = dataset.read()
 df = dataset.convert_date_column(df)
