@@ -700,19 +700,19 @@ dataset.visualize_precipitation_temp(df)
 
 
     
-![png](output_9_1.png)
+![png](temp_over_time.png)
     
 
 
 
     
-![png](output_9_2.png)
+![png](monthly_precision.png)
     
 
 
 
     
-![png](output_9_3.png)
+![png](monthly_temp_precision.png)
     
 
 
@@ -834,7 +834,7 @@ dataset.visualize_dataset_weather(weather_count)
 
 
     
-![png](output_11_1.png)
+![png](weather_condition_pie.png)
     
 
 
@@ -1007,7 +1007,7 @@ plt.show()
 
 
     
-![png](output_13_1.png)
+![png](weather_condition_bar.png)
     
 
 
@@ -1075,7 +1075,7 @@ plt.show()
 
 
     
-![png](output_15_0.png)
+![png](correlation_heatmap.png)
     
 
 
