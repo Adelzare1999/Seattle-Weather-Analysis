@@ -564,7 +564,7 @@ class reading_dataset:
         plt.show()
 
 
-dataset = reading_dataset(r"C:\Users\SarayeTell\Desktop\Weather Prediction\seattle-weather.csv")
+dataset = reading_dataset(r"path to seattle-weather.csv")
 df = dataset.read()
 df = dataset.convert_date_column(df)
 df = dataset.add_mean_temp_column(df)
